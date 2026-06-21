@@ -1,7 +1,13 @@
 rules:
   - RULE-SET,pixiv,Pixiv-Proxy
+
+  # 强制补图（关键）
   - DOMAIN-SUFFIX,pixiv.net,Pixiv-Proxy
   - DOMAIN-SUFFIX,pximg.net,Pixiv-Proxy
-  - DOMAIN-SUFFIX,pixiv.org,Pixiv-Proxy
-  - DOMAIN,accounts.pixiv.net,Pixiv-Proxy
+
+  # API（稳定性核心）
   - DOMAIN,app-api.pixiv.net,Pixiv-Proxy
+  - DOMAIN,accounts.pixiv.net,Pixiv-Proxy
+  - DOMAIN,i.pximg.net,Pixiv-Proxy
+
+  - DOMAIN,imgaz.pixiv.net,Pixiv-Proxy
